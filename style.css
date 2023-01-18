@@ -1,0 +1,132 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.w-55 {
+    width: 62%;
+}
+video {
+    object-fit: cover;
+    opacity: 80%;
+}
+.bg-man {
+    background-color: aquamarine;
+}
+
+main div section {
+    opacity: 89%;
+    clip-path: polygon(0 0, 0 100%, 90% 100%,100% 0);
+}
+
+.fs- {
+    font-size: 3rem;
+}
+
+#mail {
+    width: 317px;
+    height: 58px;
+    outline: none;
+}
+#btn {
+    width: 123px;
+    height: 58px;
+}
+.bg-black {
+    background-color: black;
+}
+
+.br-50 {
+    border-radius: 50%;
+}
+
+.i {
+    margin: 6%;
+    margin-right: 15%;
+}
+
+.i i {
+    font-size: 1.5rem;
+}
+
+#my-btn {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+@media only screen and (max-width: 600px) {
+    .mobile-screen {
+        clip-path: none;
+        width: 100% !important;
+        height: 75% !important;
+    }
+    #mobile-screen {
+        position: absolute;
+        flex-direction: row !important;
+        bottom: 0 !important;
+        width: 100% !important;
+        height: 88% !important;
+    }
+    .i {
+        margin: 3%;
+        margin-right: 3%;
+    }
+    #width-max {
+        width: 95% !important;
+    }
+    .fs- {
+        font-size: 2.1rem;
+    }
+    .j-c-c{
+        justify-content: center;
+    }
+    #mail {
+        width: 150px;
+        height: 54px;
+        outline: none;
+        font-size: 0.85rem;
+    }
+    #btn {
+        font-size: 0.85rem;
+        width: 103px;
+        height: 54px;
+    }
+}
+
+@media only screen and (max-width: 1144px) and (min-width: 600px) {
+    .mobile-screen {
+        clip-path: none;
+        width: 100% !important;
+        height: 75% !important;
+    }
+    #mobile-screen {
+        position: absolute;
+        flex-direction: row !important;
+        bottom: 0 !important;
+        width: 100% !important;
+        height: 94% !important;
+    }
+    .i {
+        margin: 3%;
+        margin-right: 3%;
+    }
+    #width-max {
+        width: 85% !important;
+        text-align: start;
+    }
+    .fs- {
+        font-size: 2.1rem;
+    }
+    .j-c-c{
+        justify-content: center;
+    }
+    #mail {
+        width: 410px;
+        font-size: 0.85rem;
+    }
+}
